@@ -1,0 +1,30 @@
+{
+  "name": "robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "canvas": "^2.8.0",
+    "fs": "0.0.1-security",
+    "jimp": "^0.16.1",
+    "jpeg-js": "^0.4.3",
+    "jsdom": "^17.0.0",
+    "rclnodejs": "^0.18.0",
+    "sharp": "^0.29.0",
+    "simple-peer": "^9.11.0",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2",
+    "systeminformation": "^5.7.6",
+    "wrtc": "^0.4.7"
+  },
+  "proxy": "http://localhost:3000/",
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.14.5"
+  }
+}
